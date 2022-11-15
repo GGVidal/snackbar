@@ -1,17 +1,7 @@
 import React from 'react';
 import {useAnimatedScrollHandler} from 'react-native-reanimated';
 import {StyledAnimatedScroll} from './style';
-
-interface ValueProps {
-  value: number | boolean;
-}
-
-interface AnimatedScrollProps {
-  children: React.ReactNode;
-  lastContentOffset: ValueProps;
-  isScrolling: ValueProps;
-  translateY: ValueProps;
-}
+import {AnimatedScrollProps} from './types';
 
 export const AnimatedScroll: React.FC<AnimatedScrollProps> = ({
   children,
