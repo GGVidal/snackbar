@@ -5,6 +5,10 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "types": [
+      "@types/styled-components-react-native"
+    ],
+    "skipLibCheck": true,       
+    "noImplicitAny": false                        /* Skip type checking all .d.ts files. */
   }
 }
