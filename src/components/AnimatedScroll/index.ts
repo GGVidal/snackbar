@@ -1,0 +1,1 @@
+export {AnimatedScroll} from './AnimatedScroll';
