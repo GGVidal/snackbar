@@ -11,3 +11,6 @@ yarn && cd ios && pod install && cd ..
 ```react
 yarn ios or yarn android
 ```
+
+### Demo
+![](https://github.com/GGVidal/snackbar/blob/main/snackbar.gif)
